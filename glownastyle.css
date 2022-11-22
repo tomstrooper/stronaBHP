@@ -1,4 +1,7 @@
-.glowna{
+body{
+    margin:0px 0px 0px 0px;
+}
+.glowna1{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -27,4 +30,44 @@
 
 .startgap{
     height: 60px;
+}
+
+.glowna2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.gap{
+    height: 25px;
+}
+.gap2{
+    height: 60px;
+}
+
+.lewo{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.foto{
+    width: 100%;
+}
+
+.prawo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.cennik{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 80%;
+}
+
+.kontakt{
+    background-color: aquamarine;
+    height: 150px;
 }
