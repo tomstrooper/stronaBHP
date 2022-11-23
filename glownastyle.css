@@ -71,3 +71,31 @@ body{
     background-color: aquamarine;
     height: 150px;
 }
+
+.kafelkigrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.kafelek{
+    position: relative;
+}
+.kafelkifoto{
+    width: 100%;
+    /*position: absolute;*/
+}
+.kafelkifoto2{
+    width: 1%;
+    height: 100%;
+    opacity: 0%;
+    position: absolute;
+    left: 0px;
+    transition: 1s;
+}
+
+.kafelek:hover .kafelkifoto2{
+    width: 100%;
+    opacity: 100%;
+    transition-delay: 0.3s;
+}
+    
